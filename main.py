@@ -22,9 +22,9 @@ try:
 
     # Find the username and password fields and the login button
     text_box = driver.find_element(By.NAME, 'username')
-    text_box.send_keys('@helloworld1262')
+    text_box.send_keys('username')
     password = driver.find_element(By.NAME, 'password')
-    password.send_keys('shch21is')
+    password.send_keys('password')
     btn = driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
     btn.submit()
     print("Submitted login form")
